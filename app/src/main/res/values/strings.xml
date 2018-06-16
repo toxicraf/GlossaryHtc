@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glossary</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_about">About</string>
+
+    
+    <string name="about">©</string>
+    
+    <color name="black">#000000</color>
+    <color name="light_blue">#9999ff</color>
+    <color name="darker_blue">#009999</color>
+    <color name="pale_blue">#cce5ff</color>
+    <color name="dark_blue">#006666</color>  
+    <color name="dark_gray">#808080</color>    
+	<color name="White">#ffffff</color>
+	<color name="Yellow">#ffff00</color>
+
+</resources>

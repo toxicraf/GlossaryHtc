@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Zoran\AndroidStudioProjects\GlossaryHtc\app\src\main\assets"><file name="glossary.txt" path="C:\Users\Zoran\AndroidStudioProjects\GlossaryHtc\app\src\main\assets\glossary.txt"/></source><source path="C:\Users\Zoran\AndroidStudioProjects\GlossaryHtc\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Zoran\AndroidStudioProjects\GlossaryHtc\app\src\debug\assets"/></dataSet></merger>

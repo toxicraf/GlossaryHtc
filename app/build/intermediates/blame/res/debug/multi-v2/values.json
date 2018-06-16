@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "399,436,494",
+                        "endColumns": "36,57,55",
+                        "endOffsets": "431,489,545"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,5,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,147,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,46,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,189,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,136,176,220,264,310,355,550,586,633,678",
+                        "endColumns": "39,40,39,43,43,45,44,43,35,46,44,45",
+                        "endOffsets": "90,131,171,215,259,305,350,394,581,628,673,719"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "17,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "724,807",
+                        "endLines": "19,22",
+                        "endColumns": "12,12",
+                        "endOffsets": "802,874"
+                    }
+                }
+            ]
+        }
+    ]
+}

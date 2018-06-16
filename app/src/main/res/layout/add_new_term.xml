@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Naslov5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text=" Add Term"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/darker_blue"
+           android:orientation="vertical"
+           android:padding="8dp" >
+
+           <TextView
+               android:id="@+id/textNaslov7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="English:"
+               android:textColor="@color/black"
+               android:textSize="24dp"
+               android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/termEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pale_blue"
+        android:gravity="top" />
+    
+    <TextView
+        android:id="@+id/textSerbian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Serbian:"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/termSerbian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pale_blue"
+        android:gravity="top" />
+    
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Description:"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    
+    <EditText
+        android:id="@+id/termDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/pale_blue"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/black"
+        android:onClick="addNewTerm"
+        android:text="Save"
+        android:textColor="@color/White" />
+
+</LinearLayout>
+        
+
+</LinearLayout>
