@@ -6,9 +6,11 @@
                 {
                     "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "5,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "208,92,151",
+                        "endColumns": "36,57,55",
+                        "endOffsets": "240,145,202"
                     },
                     "to": {
                         "startLines": "10,11,12",
@@ -21,11 +23,11 @@
                 {
                     "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,5,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,147,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,46,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,189,-1,-1"
+                        "startLines": "16,17,10,14,15,12,11,13,8,5,4,3",
+                        "startColumns": "1,1,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "523,561,251,430,477,338,292,385,208,152,106,59",
+                        "endColumns": "36,37,39,43,43,45,44,43,35,46,44,45",
+                        "endOffsets": "558,597,286,469,516,379,332,424,239,194,146,100"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,13,14,15,16",
@@ -38,17 +40,20 @@
                 {
                     "source": "C:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,525",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "484,682"
                     },
                     "to": {
-                        "startLines": "17,20",
+                        "startLines": "17,24",
                         "startColumns": "4,4",
-                        "startOffsets": "724,807",
-                        "endLines": "19,22",
+                        "startOffsets": "724,1015",
+                        "endLines": "23,26",
                         "endColumns": "12,12",
-                        "endOffsets": "802,874"
+                        "endOffsets": "1010,1170"
                     }
                 }
             ]

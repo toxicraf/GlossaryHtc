@@ -1,6 +1,7 @@
 package com.raf.glossary1;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +36,7 @@ import java.util.HashMap;
 
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ListActivity {
 
     Intent intent;
     TextView termID;
@@ -86,7 +87,8 @@ public class MainActivity extends Activity {
 
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-        lv = findViewById(R.id.list);
+        lv = getListView();
+
         sv = (SearchView) findViewById(R.id.searchView);
         sv.setFocusable(false);
 
@@ -101,19 +103,6 @@ public class MainActivity extends Activity {
 
         lv.setAdapter(adapter);
         lv.setTextFilterEnabled(true);
-
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                termID = findViewById(R.id.termID);
-                String valTermId = termID.getText().toString();
-                Intent  i = new Intent(getApplicationContext(),EditTerm.class);
-                i.putExtra("termID", valTermId);
-                startActivity(i);
-                //finish();
-
-            }
-        });
 
         setupSearchView();
 
@@ -209,6 +198,16 @@ public class MainActivity extends Activity {
         Intent  i = new Intent(getApplicationContext(),MainActivity.class);
         startActivity(i);
         finish();
+    }
+
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        termID = v.findViewById(R.id.termID);
+        String valTermId = termID.getText().toString();
+        Intent  i = new Intent(getApplicationContext(),EditTerm.class);
+        i.putExtra("termID", valTermId);
+        startActivity(i);
+        //finish();
     }
 
     public class WebService extends AsyncTask<String, Void, String> {

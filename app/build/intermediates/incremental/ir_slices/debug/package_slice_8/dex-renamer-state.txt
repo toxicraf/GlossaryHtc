@@ -1,4 +1,4 @@
-#Thu Jun 14 05:07:26 CEST 2018
-base.0=C\:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+#Wed Jun 20 17:07:31 CEST 2018
+base.0=C\:\\Users\\Zoran\\AndroidStudioProjects\\GlossaryHtc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

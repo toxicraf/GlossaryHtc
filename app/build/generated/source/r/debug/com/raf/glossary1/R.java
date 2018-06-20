@@ -40,16 +40,15 @@ public final class R {
     public static final int btnDelete=0x7f040008;
     public static final int btnSave=0x7f040009;
     public static final int imageView1=0x7f04000a;
-    public static final int list=0x7f04000b;
-    public static final int searchView=0x7f04000c;
-    public static final int termDescription=0x7f04000d;
-    public static final int termEnglish=0x7f04000e;
-    public static final int termID=0x7f04000f;
-    public static final int termSerbian=0x7f040010;
-    public static final int textDescription=0x7f040011;
-    public static final int textNaslov6=0x7f040012;
-    public static final int textNaslov7=0x7f040013;
-    public static final int textSerbian=0x7f040014;
+    public static final int searchView=0x7f04000b;
+    public static final int termDescription=0x7f04000c;
+    public static final int termEnglish=0x7f04000d;
+    public static final int termID=0x7f04000e;
+    public static final int termSerbian=0x7f04000f;
+    public static final int textDescription=0x7f040010;
+    public static final int textNaslov6=0x7f040011;
+    public static final int textNaslov7=0x7f040012;
+    public static final int textSerbian=0x7f040013;
   }
   public static final class layout {
     public static final int activity_edit_term=0x7f050000;

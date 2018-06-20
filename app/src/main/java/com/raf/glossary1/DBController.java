@@ -32,7 +32,7 @@ public class DBController  extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase database) {
 		String query;	
 		query = "CREATE TABLE terms " +
-				"( termID INTEGER PRIMARY KEY AUTOINCREMENT, termEnglish TEXT," +
+				"(termID INTEGER PRIMARY KEY AUTOINCREMENT, termEnglish TEXT," +
 				" termSerbian TEXT, termDescription TEXT)";
         database.execSQL(query);
         //Log.d(LOGCAT,"Terms created");
@@ -119,10 +119,10 @@ public class DBController  extends SQLiteOpenHelper {
 	    		new String[] { queryValues.get("termID") });
 	}
 	
-	public void deleteTerm(String id) {
+	public void deleteTerm(String termID) {
 //		Log.d(LOGCAT,"delete");
 		SQLiteDatabase database = this.getWritableDatabase();	 
-		String deleteQuery = "DELETE FROM  terms where termID='"+ id +"'";
+		String deleteQuery = "DELETE FROM  terms where termID='"+ termID +"'";
 //		Log.d("query",deleteQuery);		
 		database.execSQL(deleteQuery);
 	}
@@ -148,10 +148,10 @@ public class DBController  extends SQLiteOpenHelper {
 	    return wordList;
 	}
 	
-	public HashMap<String, String> getTermInfo(String id) {
+	public HashMap<String, String> getTermInfo(String termID) {
 		HashMap<String, String> wordList = new HashMap<String, String>();
 		SQLiteDatabase database = this.getReadableDatabase();
-		String selectQuery = "SELECT * FROM terms where termID='"+id+"'";
+		String selectQuery = "SELECT * FROM terms where termID='"+termID+"'";
 //		Log.d(LOGCAT,selectQuery);
 		
 		Cursor cursor = database.rawQuery(selectQuery, null);
